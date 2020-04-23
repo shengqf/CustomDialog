@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tips_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="撒反对按时打卡发货撒打开撒地方环境的撒打十分肯定撒空间发挥三大反馈的三分士大夫看哈电视士大夫好看"
+        android:layout_marginTop="15dp"
+        android:textColor="#666"
+        android:textSize="14sp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/cancel_tv"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#FFF"
+            android:background="#ccc"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/confirm_tv"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="确定"
+            android:textColor="#FFF"
+            android:background="#00f"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>
